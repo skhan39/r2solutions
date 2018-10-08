@@ -9,6 +9,8 @@
 	font-size: 18px;
 	font-weight: lighter;
 }
+
+
 .glyphicon-home {
 	font-size: auto;
 	color: white;
@@ -18,7 +20,6 @@
 
 .well {
 	background-color: white;
-	
 }
 
 .btn {
@@ -27,8 +28,27 @@
 }
 
 .btn:hover {
-	background-color: #99badd;
+	background-color: #f58322;
 }
+
+ .popover {
+     
+  }
+  /* Popover Header */
+  .popover-title {
+      background-color: #f58322; 
+      color: white; 
+      text-align:center;
+  }
+  /* Popover Body */
+  .popover-content {
+      background-color: #99badd;
+      color: white;
+  }
+  /* Popover Arrow */
+  .arrow {
+      border-right-color: #99badd;
+  }
 
 
 
