@@ -1,11 +1,12 @@
 
 .navbar-default {
 	background-color: #99badd;
-	color: white;
 	text-align: center;
 	
 }
-
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
 .glyphicon-home {
 	font-size: auto;
 	color: white;
