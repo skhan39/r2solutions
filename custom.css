@@ -6,6 +6,8 @@
 }
 .navbar-default .navbar-nav > li > a {
     color: white;
+	font-size: 18px;
+	font-weight: lighter;
 }
 .glyphicon-home {
 	font-size: auto;
@@ -21,6 +23,7 @@
 
 .btn {
 	background-color: #99badd;
+	outline-color: #99badd;
 }
 
 
