@@ -41,11 +41,21 @@
   
 <div class="container">
 	<div class="row">
-		<div class="col-lg-6">
+		<div class="col-sm-6">
 		<p>Hours Worked &nbsp;&nbsp;&nbsp;&nbsp;Hours Left&nbsp;&nbsp;&nbsp;&nbsp;Hours Over</p>
 		</div>
-    <div class="col-lg-6">
-		<p>toggle view</p>
+    <div class="col-sm-6">
+		<div class="col-xs-9 col-xs-offset-10 center">
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Toggle</button>
+  <div id="demo" class="collapse">
+    <label for="start">Start month</label>
+    <input type="month" id="start" name="start"
+           min="2001-03" value="2018-05" />
+    <span class="validity"></span>
+  </div>
+</div>
+</div>
     </div>
  
 	</div>
