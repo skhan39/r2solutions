@@ -1,17 +1,24 @@
+
 .navbar-default {
 	background-color: #99badd;
 	color: white;
 	text-align: center;
+	
 }
 
 .glyphicon-home {
-	font-size: 25px;
+	font-size: auto;
 	color: white;
 	text-align: center;
+	line-height: auto;
 }
 
 .well {
 	background-color: white;
 	
+}
+
+.nav navbar-nav {
+	color: white;
 }
 
